@@ -218,3 +218,14 @@ img {
 
     /* end Main Contents */
 }
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+
+}
