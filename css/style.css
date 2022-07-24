@@ -192,6 +192,10 @@ img {
         font-size: 1.3rem;
     }
 
+    .lessons {
+        padding-bottom: 3rem;
+    }
+
     .steps {
         margin: 0rem 0;
     }
