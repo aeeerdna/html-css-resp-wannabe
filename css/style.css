@@ -152,7 +152,7 @@ img {
 
     /* Main Contents */
     .container {
-        max-width: 480px;
+        width: 100%;
         margin: 0 auto;
         flex-wrap: wrap;
         justify-content: center;
@@ -219,10 +219,13 @@ img {
     /* end Main Contents */
 }
 
-
-@media screen and (min-width: 480px) and (max-width: 768px) {
+/******* 
+    NB: posso evitare di mettere @mediaquery --> [and (min-width: 480px)] 
+    nella sezione appena sotto perchè ho una @mediaquery di max-width:480px nella parte del telefono.  
+*******/
+@media screen and (max-width: 768px) {
     .container {
-        width: 768px;
+        width: 100%;
         margin: 0 auto;
         padding: 0 20px;
     }
